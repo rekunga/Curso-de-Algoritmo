@@ -6,3 +6,61 @@ executar uma tarefa. A palavra "algoritmo" faz
 referência ao matemático árabe Al Khwarizmi, que viveu no século IX, e 
 descreveu regras para equações
 matemáticas.
+
+Algaritmo são conjunto de passos Finitos e Organizados 
+que, quando exucutados resolvem um detreminado Ploblema
+
+exemplo 
+Algaritmo AtrevesseRua
+olhar para direita
+olhar para esquerda 
+se estiver vindo carro 
+  não Atravesse 
+senão
+  Atravesse 
+FimSe   
+Fimalgaritmo 
+
+Outro Exemplo 
+
+Algaritmo AtrevesseRua
+olhar para esquerda
+olhar para direita 
+se não estiver vindo carro 
+   Atravesse 
+senão
+  não Atravesse 
+FimSe   
+Fimalgaritmo
+
+Algoritmo "Equação2grau"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   :  EQUAÇÃO 2 GRAU VALOR DE DELTA
+// Autor(a)    : Nome robson antonio
+// Data atual  : 15/08/2023
+Var
+   A,B,C,D,x1,x2:real
+Inicio
+   // EQUAÇÃO 2 GRAU VALOR DE DELTA
+   escreva("valor de A ? ")
+   leia(A)
+   escreva("valor de B ? ")
+   leia(B)
+   escreva("valor de C ? ")
+   leia(C)
+   D <- (B^2) - (4 * A * C)
+   se D > 0 entao
+    x1 <- (-B + raizq(D))/ *A
+    x2 <- (-B - raizq(D))/ *A
+    escreva("o valor de x1 é ", x1)
+    escreval("")
+    escreval("o valor de x2 é ", x2)
+    escreval("")
+   escreval("o valor de delta =", D)
+     senao
+     escreva("Delta negativo não e possivel continuar a equação")
+     fimse
+Fimalgoritmo
+
+
+
