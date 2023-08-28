@@ -1,0 +1,61 @@
+Primeiro Algoritmo
+
+Algoritmo Computacionais 
+ 
+Lógica de Programação 
+Linguagemde Progrmação
+Sistema completo 
+
+Floxograma 
+nassi shneiderman 
+portugol 
+utilizando o Visualg
+
+esceva ola mundo no visualg
+
+Algoritmo "Primeiro"
+Var 
+Inicio 
+ escreva (" Ola, Mundo!")
+ escreva ("Me Livrei da Maldição")
+FimAlgoritmo
+
+variaveis 
+
+Variável pode ser entendida como uma classificação ou uma medida; uma 
+quantidade que se altera em cada caso ou unidade de estudo.
+Uma propriedade no objeto de estudo que pode ser medida e
+enumerada. Variável é, convencionalmente, 
+um elemento representante do conjunto de todos os resultados possíveis de um
+fenômeno.
+
+espaços vazios alocados na memoria 
+var 
+identificador: tipo 
+
+indentificadores regras 
+1. deve começa com uma letra 
+2. os proximos podem ser letras ou números 
+3. não poder utilizar nenhum símbolo execeto _ 
+4. não poder conter espaço em branco 
+5. não poder conter letras com acentos 
+6. não poder ser uma palavra reservada
+
+tipos primitivos 
+inteiro   EX: numeros inteiro 1,2,3,4,5...
+real      EX: numeros fracionados 1.5, 5.0,-77.3 ...
+caractere EX: letras 
+logico    EX: verdadeiro falso
+
+atribuições 
+var 
+msg:caratere
+msg -> "Ola, Mundo!"
+
+
+
+
+
+
+
+
