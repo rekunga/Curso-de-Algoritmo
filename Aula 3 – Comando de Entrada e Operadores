@@ -1,0 +1,94 @@
+ Aula 3 – Comando de Entrada e Operadores
+comando de entrada
+
+utilizando atribuições 
+
+exemplo
+Algoritmo "MeuNome" 
+var 
+nome : caractere
+inicio 
+nome <- "gustavo"
+escreva ("muito prazer",nome)
+
+FimAlgoritm
+
+codigo no visalg
+Algoritmo "MeuNome" 
+var 
+nome : caractere
+inicio
+escreva ("Digite seu nome:")
+leia (nome)
+escreva ("muito prazer",nome) 
+
+FimAlgoritm
+execicio pratico visaulg
+some 2 numeros 
+Algoritmo "Some2Numeros" 
+var 
+N1,N2,S:inteiro
+inicio
+escreva ("Informe um numero: ")
+leia (NN1)
+escreva ("Informe outro numero ")
+leia (N2)
+S <- N1+N2 
+escreva ("A soma entre",N1," e  ",N2, " igual a ", S)
+FimAlgoritm
+
+operadores aritimeticos 
++ adição
+- subtração
+* multiplicação
+/ Divisão
+\ Divisão inteira 
+^ exponenciação
+% modulo 
+
+FimAlgoritm
+execicio pratico visaulg
+some 2 numeros 
+Algoritmo "Some2Numeros" 
+var 
+N1,N2:inteiro
+M:real 
+inicio
+escreva ("Informe um numero: ")
+leia (N1)
+escreva ("Informe outro numero ")
+leia (N2)
+M <-( N1+N2 )/2
+escreva ("A media entre",N1," e  ",N2, " igual a ", M)
+FimAlgoritm
+
+funções aritimeticas 
+
+abs valor absoluto
+EXP exponenciação
+int  valor inteiro
+raizq raiz quadrada 
+pi retorna pi 
+sen seno (rad)
+cos cosseno (rad)
+tan tangente (rad)
+grauprad  graus para rad 
+
+FimAlgoritm
+execicio pratico visaulg
+some 2 numeros 
+Algoritmo "converso 
+var 
+angulo,S :real 
+inicio
+escreva ("Informe um angolo" )
+leia (angolo)
+S <- sen(grauprad(angolo))
+escreva ("o seno de " ,angulo,"e igual a " ,S)
+
+FimAlgoritm
+
+
+
+
+
