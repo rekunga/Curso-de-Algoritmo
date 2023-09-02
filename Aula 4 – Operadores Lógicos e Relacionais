@@ -1,0 +1,88 @@
+Aula 4 – Operadores Lógicos e Relacionais
+
+operadores relacionais 
+> maior que
+< menor que
+>= maior ou igual a
+<= menor ou igual a
+<> diferente de 
+
+compara valores numericos 
+no visualg
+algoritmo " "
+var 
+A,B,C:inteiro 
+inicio 
+A <- 2
+B <- 3
+C <- 5
+escreva (A>B)
+escreva (A=B)
+escreva (A<>B)
+escreva (A>2)
+escreva (A>=2)
+escreva (c=A+B)
+escreva (C>=B^A)
+escreva (C<=B^A)
+escreva (B<=C%2)
+escreva (1=C%2)
+fimalgoritmo 
+
+operadores logicos 
+p  q    p E q
+v  v     v
+v  f     f
+f  v     f
+f  f     f
+
+p  q    p OU q
+v  v     v
+v  f     v
+f  v     v
+f  f     f
+
+p   NÃO P
+v       f
+f       v
+testes logicos com visualg
+algoritmo " "
+var 
+A,B,C:inteiro 
+inicio 
+A <- 2
+B <- 3
+C <- 5
+escreva (verdadeiro e falso )
+escreva ((A=B) OU (C>A) )
+escreva (NÃO (A=B) OU (C>A) )
+fimalgoritmo
+
+ORDEM DE PRECEDENCIA
+aritmeticos  ()
+             ^
+             */ 
+             +-
+relacionais  todos da direita para esquerda 
+logicos      E
+             OU
+            NÃO 
+ exercicio pratico com visualg 
+
+algoritmo "TRIANGULOS "
+var 
+L1,L2,L3 :real
+EQ,ES,TRI:logico
+inicio 
+escreva ("digite o primeiro lado :")
+leia(L1)
+escreva ("digite o segundo lado :")
+leia(L2)
+escreva ("digite o terceiro lado :")
+leia(L3)
+TRI <- (L1 < L2 + L3 ) e ( L2 < L1 + L3) e (L3 < L1 + L2)
+EQ <- (L1 = L2) e (L2 = L3)
+ES <-  (L1 <> L2) e (L2 <> L3) e (l1 <> L3 )
+escreval ("poder forma um TRiangulo? ",TRI)
+escreval ("triangulo e EQuilatero? ",EQ)
+escreval ("trinagulo e Escaleno?  ",ES)
+fimalgoritmo
