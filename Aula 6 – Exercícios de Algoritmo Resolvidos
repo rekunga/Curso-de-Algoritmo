@@ -1,0 +1,64 @@
+Aula 6 – Exercícios de Algoritmo Resolvidos
+
+exercio proposto no videos 
+fazer um programa que leia ano de nascimento e retoner 
+idade da pessoa no scratch
+
+fazer o mesmo no visualg 
+algoritmo "CalculoIdade"
+// =============================================================
+// Algoritmo para verificar se uma pessoa ja atingiu a maioridade
+// AUTOR: robson antonio
+//==============================================================
+var
+  ano, nasc, idade: Inteiro
+inicio
+      Escreva("Em que ano estamos? ")
+      Leia(ano)
+      Escreva("Em que ano voce nasceu? ")
+      Leia(nasc)
+      idade <- ano - nasc
+      Escreva ("Em ", ano, " voce tera ", idade, " anos")
+      Se (idade >= 21) entao
+         EscrevaL (" e ja tera atingido a maioridade. ")
+      FimSe
+fimalgoritmo
+
+Algoritmo "RealParaDolar"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome robson antonio
+// Data atual  : 15/08/2023
+Var
+  R,D:Real
+Inicio
+// converte Real para Dolar
+  escreva("quantos reais vc tem? ")
+  leia(R)
+      R <- R*0.20
+      D <- R
+  escreva("voce tem USD$",D)
+
+Fimalgoritmo
+
+
+Algoritmo "ConverterCelsusParaFaren"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : converte celsus para faremrai
+// Autor(a)    : Nome do(robson antonio
+// Data atual  : 04/09/2023
+Var
+   F,C:real
+
+Inicio
+  escreva ("Qual a Temperatura Aqui ? ")
+  leia (F)
+   C <- (F -32) /1.8
+   escreva ("No Brasil Etaria ", C:4:1)
+   
+Fimalgoritmo
+
+
+
