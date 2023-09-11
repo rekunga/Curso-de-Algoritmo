@@ -1,0 +1,81 @@
+Aula 7 – Estruturas Condicionais 1
+
+estruturas condicionais 
+
+uma frase 
+se eu tiver dinheiro então
+vou fazer uma viagem pra Disney
+
+se (Expressão) então
+bloco
+Fimse
+
+se (dinheiro >= 10000 ) então
+ escreva ("Partiu Disney )
+Fimse
+
+condicional simples
+
+algoritmo "CalculoIdade"
+var
+  ano, nasc, idade: Inteiro
+inicio
+      Escreva("Em que ano estamos? ")
+      Leia(ano)
+      Escreva("Em que ano voce nasceu? ")
+      Leia(nasc)
+      idade <- ano - nasc
+      Escreva ("Em ", ano, " voce tera ", idade, " anos")
+      Se (idade >= 21) entao
+         EscrevaL (" e ja tera atingido a maioridade. ")
+      FimSe
+fimalgoritmo
+
+se eu tiver dinheiro então 
+vou fazer uma viagaem pra Disney
+senão
+vou ficar em casa 
+
+se (Expressão) então 
+    bloco  A
+senão 
+    bloco B
+Fimse 
+condicional composta 
+
+se (dinheiro >= 10000) então 
+    escreva ("Partiu disney")
+senão 
+    escreva ("#chatedo")
+Fimse 
+
+algoritmo "ParouImpar"
+var 
+ N:inteiro 
+inicio
+escreva ("digite um numero qualquer : ")
+ leia (N)
+ se  (N % 2 = 0) então
+     escreval ("o numero ",N," e Par ")
+senão 
+    escreval (" o numero ",N," e Impar ")
+Fimse
+Fimalgoritmo
+
+algoritmo "CalculoIMC"
+var
+   M, A, IMC: Real
+inicio
+      Escreva("Massa (Kg): ")
+      Leia(M)
+      Escreva("Altura (m): ")
+      Leia(A)
+      IMC <- M / (A ^ 2)
+      EscrevaL("IMC: ", IMC:5:2)
+      Se (IMC >= 18.5) e (IMC < 25) entao
+         Escreva("Parabens! Voce esta no seu peso ideal")
+      senao
+         Escreva("Voce nao esta na faixa de peso ideal")
+      FimSe
+fimalgoritmo
+
